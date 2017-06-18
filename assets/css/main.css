@@ -129,10 +129,22 @@ a{
 	justify-content: center;
 	align-items: center;
 }
-#estrella3{
-	align-items: center;
+#estrella4 .contacto{
+	display: flex;
+	justify-content: center;
 	width: 15%;
 	height: 6%;
+}
+#formulario h1 {
+	
+	display: flex;	
+	justify-content: center;
+}
+img#estrella4{	
+	display: flex;	
+	justify-content: center;
+	text-align: center;
+	    padding-left: 38%;
 }
 .about h1 p{
 	width: 70%;
@@ -162,9 +174,7 @@ a{
 	font-family: sans-serif;
 
 	border: 2px solid white;
-	border-radius: 35px 35px 35px 35px;
-	-moz-border-radius: 35px 35px 35px 35px;
-	-webkit-border-radius: 35px 35px 35px 35px;
+	-webkit-border-radius: 10px 10px 10px 10px;
 
 }
 .contact{
@@ -203,32 +213,21 @@ a{
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
-#area-texto .contact  input{
-	height: 20%;
+input#area-texto{
+	margin-bottom: 30px;
 }
 .butons{
-
+	border: 2px solid #18BC9C;
+	width: 5%;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	background-color: #18BC9C;
+	padding-left: 1%;
 }
 .contact a{
 	text-align: left;
-	color: black;
+	color: white;
 	width: 100%;
 	justify-content: flex-start;
-	background-color: 
+	
+}
 
-		border: 2px solid black;
-	border-radius: 35px 35px 35px 35px;
-	-moz-border-radius: 35px 35px 35px 35px;
-	-webkit-border-radius: 35px 35px 35px 35px;
-}
-/*
-.contact h1{ 
-	display: flex;
-	width: 20%;
-	text-align: center;
-}
-.informacion{
-	display: flex;
-	width: 40%;
-}
-*/
