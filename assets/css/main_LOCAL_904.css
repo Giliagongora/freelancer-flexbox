@@ -16,30 +16,37 @@ body {
 	background-color: #2C3E50;
 	width: 100%;
     height: 100px;
-    display: flex;
+	
+
 }
 .title{
+	justify-content: flex-start;
+	align-items: center;
     color: white;
-}
-#menu{
+    font-weight: black;
 	display: inline-flex;
-    margin: auto;
-    width: 100%;
-    justify-content: space-around;
-}
-#menu .title h1{
-	margin: 0;
+    width: 20%;
+    margin-left: 9%;
+    padding-top: 1%;
 }
 .botonera{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	width: 60%;
 	display: inline-flex;
+    color: white;
+
 }
-#botones.botonera a{  
+a{  
+	display: inline-flex;
+	justify-content: flex-end;
     color: white;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
-    margin-right: 10px;
-    line-height: 3;
+    margin-right: 2%;
 }
 
 /* perfil */
@@ -54,16 +61,14 @@ body {
 }
 .perfil{
 	display: flex; 
+	
 	flex-direction: column;
-/*	align-items: center;*/
+	align-items: center;
 	text-align: center;
 }
 
 /* portafolio */
-.portafolio{
-	width: auto;
-	padding: 0 0 5%;
-}
+
 .portafolio .flex-container{
 	background-color: white;
 	height: 950px;
@@ -83,21 +88,29 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 5% 0;	
+	
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 100%
+	height: 400px;	
 }
 .title2 img{
 	align-items: center;
 }
 
 #uno img{
-	width: 31%;
-    padding: 1%;
-    margin: auto;
+	width: 300px;
+	align-self: baseline;
+	justify-content: center;
+	padding: 2%;
 }
 .pictures{
 	display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+	justify-content: space-around;
+	justify-content: center;
+	margin-right: 4%;
+	padding-bottom: 4%;
+	
 }
 
 /* about */
@@ -119,14 +132,6 @@ body {
 .about{
 	justify-content: center;
 	align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background-color: #18BC9C;
-    color: white;
-    align-items: center;
-    padding: 2% 0;
 }
 #estrella4 .contacto{
 	display: flex;
@@ -158,28 +163,23 @@ img#estrella4{
 #parrafo1{
 	display: inline-flex;
 	width: 30%;
-	padding: 0 2%;
-	font-size: 15px;
-    text-align: justify;
-    word-break: break-all;
+
 }
 #parrafo2{
 	display: inline-flex;
 	width: 30%;
-	padding: 0 2%;
-	font-size: 15px;
-    text-align: justify;
-    word-break: break-all;
 }
 
 .downloadTheme{
-	display: inline;
-    width: auto;
-    padding: 10px 10px;
-    text-align: center;
-    font-family: sans-serif;
-    border: 2px solid white;
-    border-radius: 3px;
+	display: inline-flex;
+	width: 10%;
+	padding: 1%;
+	text-align: center;	
+	font-family: sans-serif;
+
+	border: 2px solid white;
+	-webkit-border-radius: 10px 10px 10px 10px;
+
 }
 .contact{
 	display: flex;
@@ -235,7 +235,7 @@ input#area-texto{
 
 /* footer */
 footer{
-	height: auto;
+	height: 260px;
 	background-color: #2C3E50;
 }
 .end{
@@ -287,83 +287,4 @@ footer{
 }
 .lastext p{
 	color: white
-/*	display: inline-flex; */
-    width: auto;
-    padding: 10px;
-    /* text-align: center; */
-    border: 2px solid white;
-    font-family: sans-serif;
-}
-section.contact{
-	text-align: center;
-	padding-bottom: 5%;
-}
-section.contact form.informacion{
-    padding-bottom: 2%;
-}
-section.contact input{
-	display: block;
-    margin: auto;
-    border-left: #fff;
-    border-right: #ffff;
-    height: 50px;
-    width: 100%;
-    padding-left: 35px;
-    font-size: 17px;
-    border-top: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;
-}
-section.contact input:last-child{
-	padding-bottom: 5%;
-}
-section.contact a{
-    color: #fff;
-    background-color: #18BC9C;
-    text-decoration: none;
-    box-shadow: 0 0 black;
-    width: 50px;
-    padding: 10px 20px;
-    border-radius: 3px;
-}
-
-footer{
-    background-color: #2C3E50;
-/*    display: flex;*/
-    color: #fff;
-    justify-content: center;
-    text-align: center;
-}
-footer .info-us{
-    width: 80%;
-    margin: auto;
-    display: flex;
-}
-footer .info-us .web{
-/*	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;*/
-}
-footer .info-us .web img{
-    width: 40px;
-}
-footer .location, footer .web, footer .about-free {
-	width: 33%;
-/*    display: inline-flex;*/
-/*    flex-direction: column;*/
-    display: inline-block;
-}
-footer .about-free p span{
-	color: #18BC9C;
-}
-footer p {
-	margin:0;
-}
-footer .end{
-    width: 100%;
-    font-size: 10px;
-    padding: 15px 0;
-    background-color: #172029;
-    margin-top: 30px;
 }

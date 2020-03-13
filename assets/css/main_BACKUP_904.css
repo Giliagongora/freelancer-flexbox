@@ -107,6 +107,7 @@ body {
 }
 .about{
 	display: flex;
+<<<<<<< HEAD
 	flex-direction: column;
 	justify-content: center;
 	 
@@ -119,6 +120,7 @@ body {
 .about{
 	justify-content: center;
 	align-items: center;
+=======
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -127,6 +129,7 @@ body {
     color: white;
     align-items: center;
     padding: 2% 0;
+>>>>>>> 08fb3e0a16cf9160e9d7301a121d16e020b963d6
 }
 #estrella4 .contacto{
 	display: flex;
@@ -173,13 +176,16 @@ img#estrella4{
 }
 
 .downloadTheme{
-	display: inline;
-    width: auto;
-    padding: 10px 10px;
-    text-align: center;
-    font-family: sans-serif;
-    border: 2px solid white;
-    border-radius: 3px;
+<<<<<<< HEAD
+	display: inline-flex;
+	width: 10%;
+	padding: 1%;
+	text-align: center;	
+	font-family: sans-serif;
+
+	border: 2px solid white;
+	-webkit-border-radius: 10px 10px 10px 10px;
+
 }
 .contact{
 	display: flex;
@@ -235,7 +241,7 @@ input#area-texto{
 
 /* footer */
 footer{
-	height: auto;
+	height: 260px;
 	background-color: #2C3E50;
 }
 .end{
@@ -287,6 +293,7 @@ footer{
 }
 .lastext p{
 	color: white
+=======
 /*	display: inline-flex; */
     width: auto;
     padding: 10px;
@@ -307,7 +314,7 @@ section.contact input{
     border-left: #fff;
     border-right: #ffff;
     height: 50px;
-    width: 100%;
+    width: 50%;
     padding-left: 35px;
     font-size: 17px;
     border-top: 1px solid #ececec;
@@ -349,7 +356,7 @@ footer .info-us .web img{
     width: 40px;
 }
 footer .location, footer .web, footer .about-free {
-	width: 33%;
+	width: 30%;
 /*    display: inline-flex;*/
 /*    flex-direction: column;*/
     display: inline-block;
@@ -366,4 +373,5 @@ footer .end{
     padding: 15px 0;
     background-color: #172029;
     margin-top: 30px;
+>>>>>>> 08fb3e0a16cf9160e9d7301a121d16e020b963d6
 }
